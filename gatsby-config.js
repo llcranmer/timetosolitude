@@ -1,21 +1,21 @@
 module.exports = {
   siteMetadata: {
-    siteTitle: 'Chronoblog Starter',
-    siteDescription: 'Starter for Gatsby Theme Chronoblog',
+    siteTitle: 'Time to Solitude',
+    siteDescription: 'A quiet place for thoughts',
     siteImage: '/banner.png', // main image of the site for metadata
-    siteUrl: 'https://chronoblog.now.sh/',
+    siteUrl: 'https://timetosolitude.com',
     pathPrefix: '/',
     siteLanguage: 'en',
     ogLanguage: `en_US`,
-    author: 'Site Author', // for example - 'Ivan Ganev'
-    authorDescription: 'short author description', // short text about the author
+    author: 'nullPtr', // for example - 'Ivan Ganev'
+    authorDescription: 'Climber, hacker, and writer', // short text about the author
     avatar: '/avatar.jpg',
     twitterSite: '', // website account on twitter
     twitterCreator: '', // creator account on twitter
     social: [
       {
         icon: `twitter`,
-        url: `https://twitter.com/ganevru`
+        url: `https://twitter.com/`
       },
       {
         icon: `github`,
