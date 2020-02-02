@@ -1,8 +1,8 @@
 ---
-title: How I went to college for free
-cover:./debt-free-college.jpg
+title: How I went to college debt free
+cover: ./debt-free-college-scholarship.jpg
 date: 2020-02-01
-description: I am one of the few who went to college for free without any parental help or any help from wealthy relatives.
+description: I am one of the few who went to college for free without any financial  help from parents or relatives.
 Tags: ['finance']
 ---
 
