@@ -1,11 +1,10 @@
 ---
-title: 'Link to Chronoblog Theme repo'
+title: 'Gatsby contact form for Netlify'
 cover: ./image.jpg
-date: 2019-11-12
-link: https://github.com/Ganevru/gatsby-theme-chronoblog
+date: 2020-02-01
+link: https://github.com/llcranmer/gatsby-netlify-contact-form/
 tags: ['link', 'project']
 ---
 
-**Link card** is a card, when clicked, the user goes to the specified link.
+A simple html contact form that's used on this site. Use it however you like and open a PR if you want to make it cooler.
 
-Use it to refer to your articles on other resources, to your new works (wherever they are posted: Github, Dribbble or anything else), to the certificates you received, and in general, to whatever is more convenient give a link.
