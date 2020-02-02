@@ -9,7 +9,7 @@ module.exports = {
     ogLanguage: `en_US`,
     author: 'nullPtr', // for example - 'Ivan Ganev'
     authorDescription: 'Budding climber, hacker, and writer', // short text about the author
-    avatar: '/avatar.svg',
+    avatar: '/null-ptr.jpg',
     twitterSite: '', // website account on twitter
     twitterCreator: '', // creator account on twitter
     social: [
