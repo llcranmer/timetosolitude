@@ -8,8 +8,8 @@ module.exports = {
     siteLanguage: 'en',
     ogLanguage: `en_US`,
     author: 'nullPtr', // for example - 'Ivan Ganev'
-    authorDescription: 'Climber, hacker, and writer', // short text about the author
-    avatar: '/avatar.jpg',
+    authorDescription: 'Budding climber, hacker, and writer', // short text about the author
+    avatar: '/avatar.svg',
     twitterSite: '', // website account on twitter
     twitterCreator: '', // creator account on twitter
     social: [
@@ -19,7 +19,7 @@ module.exports = {
       },
       {
         icon: `github`,
-        url: `https://github.com/Chronoblog/gatsby-theme-chronoblog`
+        url: `https://github.com/`
       },
       {
         icon: `node-js`,

@@ -1,142 +1,57 @@
 ---
-title: Full Blog Post Example
-cover: ./image.jpg
-date: 2019-12-01
-description: All the usual blog post.
-tags: ['post']
+title: How I went to college for free
+cover:./debt-free-college.jpg
+date: 2020-02-01
+description: I am one of the few who went to college for free without any parental help or any help from wealthy relatives.
+Tags: ['finance']
 ---
 
-This is an example blog post. All your blog posts should be here: `content/posts`.
 
-Websites like Reddit, StackOverflow, and GitHub had millions of people using Markdown. And Markdown started to be used beyond the web, to author books, articles, slide shows, letters, and lecture notes.
+### 1.) Decided in High school that I would not go into debt for college.
 
-What distinguishes Markdown from many other lightweight markup syntaxes, which are often easier to write, is its readability. As Gruber writes:
+I made up my mind that I would not take any loans while in pursuit of higher education during my freshmen year of high school, which is probably the most important thing to do when tackling the challenge of getting a college degree in the U.S. 
 
-> The overriding design goal for Markdown’s formatting syntax is to make it as readable as possible. The idea is that a Markdown-formatted document should be publishable as-is, as plain text, without looking like it’s been marked up with tags or formatting instructions.
+Because it is all to easy to say *yes* and end up in tens, if not hundreds of thousands of dollars of debt.
 
-## Frontmatter
+### 2.) Took AP and Dual Credit classes for the GPA boost and free college credits.
 
-Metadata for your Markdown.
+I was an A and mostly B student but thanks to the AP and Dual Credit classes that was enough to be in the top 5% of my graduating class, which in Texas gave the automatic acceptance to **the** University of Texas, but didn't earn me a full ride scholarship from them, not even a partial ride. So I said no to them and several other **big name** Universities that only offered me loans. 
 
-In this post it looks like this:
+See point (1).
 
-```md
----
-title: Full Blog Post Example
-cover: ./image.jpg
-date: 2019-11-05
-description: All the usual blog post.
-tags: ['post']
----
-```
+### 3.) Participated in extracurricular
 
-Read more about this setting here: [github.com/Chronoblog/gatsby-theme-chronoblog#posts](https://github.com/Chronoblog/gatsby-theme-chronoblog#posts)
+I played varsity tennis from freshmen year on with hopes it would lead to some scholarship offers and it did but only to a few D3 universities. To their credit they where partial scholarships and I would have only ended up in tens of thousands of dollars of scholarships and not hundreds. Still, not enough for me. 
 
-## Markdown
+See point (1).
 
-This post is a `markdown` file and you can do everything in it that allows you to do markdown.
+I was also VP of Art club, which did help me get a small onetime scholarship of 1K for use on a textbook or two.
 
-### Headers
 
-```md
-# This is an <h1> tag
+### 4.) Pestered my scholarship coordinator.
 
-## This is an <h2> tag
+In high school there is a person, whose only job is to keep track of all the scholarships that are only available for high schoolers and even better only available for the high school you're currently enrolled in. I scheduled meetings to meet with them and asked them about all the scholarships I could apply for. By doing this I was able to get a few other small 1K scholarships to help with textbooks and lab supplies. 
 
-###### This is an <h6> tag
-```
+### 5.) Used Google to find more scholarships.
 
-# This is an `<h1>` tag
+I mostly relied on (4) which was a big mistake because the scholarship coordinator didn't know about or share several full-ride scholarships that are only available to high school students. Google may not give you the immediate answer but with enough digging and changing of search strings it can return that hidden webpage that shows a **full-ride** opportunity.
 
-## This is an `<h2>` tag
 
-###### This is an `<h6>` tag
+### 6.) FAIL! I did not get a full ride scholarship offer in High School.
 
-### Emphasis
+So I made a choice that is considered taboo. 
 
-```md
-_This text will be italic_  
-**This text will be bold**
-```
+I decided to go to community college and while there I still did steps 1,3,4, and 5.
 
-_This text will be italic_  
-**This text will be bold**
 
-### Lists
+### 7.) Joined Phi Theta Kappa.
 
-```md
-- Item 1
-- Item 2
-  - Item 2a
-  - Item 2b
-```
+I became an active member in Phi Theta Kappa, which is the community college honor society open to all who earn a GPA above 3.5.
 
-- Item 1
-- Item 2
-  - Item 2a
-  - Item 2b
+I eventually became an officer and helped my chapter to place in the top ten at the international convention, which led to me meeting the representatives of a full-ride transfer scholarship foundation who encouraged me to apply. 
 
-### Images
+### 8.) SUCCESS! Full-ride
 
-```md
-![image-in-post](./image-in-post.jpg)
-```
+I applied for and won the Terry Transfer Scholarship which is a full-ride scholarship with room, board, food, and study abroad included. 
 
-![image-in-post](./image-in-post.jpg)
-
-### Links
-
-```md
-[github.com/Chronoblog/gatsby-theme-chronoblog](https://github.com/Chronoblog/gatsby-theme-chronoblog)
-```
-
-[github.com/Chronoblog/gatsby-theme-chronoblog](https://github.com/Chronoblog/gatsby-theme-chronoblog)
-
-### Blockquotes
-
-```md
-As Kanye West said:
-
-> We're living the future so
-> the present is our past.
-```
-
-As Kanye West said:
-
-> We're living the future so
-> the present is our past.
-
-### Inline code
-
-**`js:`**
-
-```js
-const someFun = (text) => {
-  console.log('some ' + text);
-};
-someFun('text');
-```
-
-**`css:`**
-
-```css
-.thing {
-  font-size: 16px;
-  width: 100%;
-}
-@media screen and (min-width: 40em) {
-  font-size: 20px;
-  width: 50%;
-}
-@media screen and (min-width: 52em) {
-  font-size: 24px;
-}
-```
-
-**`jsx:`**
-
-```jsx
-<Thing fontSize={[16, 20, 24]} width={[1, 1 / 2]} />
-```
-
-What distinguishes Markdown from many other lightweight markup syntaxes, which are often easier to write, is its readability.
+**NOTE** The Terry Scholarship is also available for high schoolers as well something my high school coordinator didn't tell me. To be fair I don't think they knew about it.
