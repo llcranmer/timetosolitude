@@ -1,6 +1,5 @@
 ---
 title: 'Gatsby contact form for Netlify'
-cover: ./image.jpg
 date: 2020-02-01
 link: https://github.com/llcranmer/gatsby-netlify-contact-form/
 tags: ['link', 'project']

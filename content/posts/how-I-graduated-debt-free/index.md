@@ -1,6 +1,6 @@
 ---
 title: How I went to college debt free
-cover: ./debt-free-college-scholarship.jpg
+cover: ./how-i-graduated-debt-free.jpg
 date: 2020-02-01
 description: I am one of the few who went to college for free without any financial  help from parents or relatives.
 Tags: ['finance']
@@ -11,17 +11,17 @@ Tags: ['finance']
 
 I made up my mind that I would not take any loans while in pursuit of higher education during my freshmen year of high school, which is probably the most important thing to do when tackling the challenge of getting a college degree in the U.S. 
 
-Because it is all to easy to say *yes* and end up in tens, if not hundreds of thousands of dollars of debt.
+Because it is all to easy to say *yes* and end up in tens, if **not** hundreds of thousands of dollars of debt.
 
 ### 2.) Took AP and Dual Credit classes for the GPA boost and free college credits.
 
-I was an A and mostly B student but thanks to the AP and Dual Credit classes that was enough to be in the top 5% of my graduating class, which in Texas gave the automatic acceptance to **the** University of Texas, but didn't earn me a full ride scholarship from them, not even a partial ride. So I said no to them and several other **big name** Universities that only offered me loans. 
+I was an A and mostly B student but thanks to the AP and Dual Credit classes that was enough to be in the **top 5%** of my graduating class, which in Texas gave the automatic acceptance to **the** University of Texas, but didn't earn me a full ride scholarship from them, not even a partial ride. So I said no to them and several other **big name** Universities that only offered me loans. 
 
 See point (1).
 
 ### 3.) Participated in extracurricular
 
-I played varsity tennis from freshmen year on with hopes it would lead to some scholarship offers and it did but only to a few D3 universities. To their credit they where partial scholarships and I would have only ended up in tens of thousands of dollars of scholarships and not hundreds. Still, not enough for me. 
+I played varsity tennis from freshmen year on with hopes it would lead to some scholarship offers and it did but only to a few D3 universities. To their credit they where partial scholarships and I would have only ended up in tens of thousands of dollars of debt thanks to scholarships and not hundreds, but still, not enough for me. 
 
 See point (1).
 
@@ -41,12 +41,12 @@ I mostly relied on (4) which was a big mistake because the scholarship coordinat
 
 So I made a choice that is considered taboo. 
 
-I decided to go to community college and while there I still did steps 1,3,4, and 5.
+I decided to go to community college and while there I still did steps **1,3,4, and 5**.
 
 
 ### 7.) Joined Phi Theta Kappa.
 
-I became an active member in Phi Theta Kappa, which is the community college honor society open to all who earn a GPA above 3.5.
+I became an active member in **Phi Theta Kappa**, which is the community college honor society open to all who earn a GPA above 3.5.
 
 I eventually became an officer and helped my chapter to place in the top ten at the international convention, which led to me meeting the representatives of a full-ride transfer scholarship foundation who encouraged me to apply. 
 
