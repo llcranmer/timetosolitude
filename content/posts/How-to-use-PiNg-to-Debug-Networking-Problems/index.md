@@ -1,6 +1,6 @@
 ---
 title: How to use PiNg to Debug Networking Problems
-cover: ./how-to-use-ping-to-debug-networking-problems.jpg
+cover: ./how-to-use-ping-to-debug-networking-problems.png
 date: 2020-02-01
 description: The Packet INternet Groper or PING is the first thing to try when you're having network problems
 Tags: ['tool', 'networking', 'debugging']
