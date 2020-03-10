@@ -2,7 +2,7 @@
 title: How to use Kubebench to Add Security to a Kops Provisioned Kubernetes Cluster 
 date: 2020-02-01
 description: Use Kubebench to securely configure a Kuberetes cluster
-Tags: ['cloud', 'kubernetes', 'security']
+tags: ['cloud', 'kubernetes', 'security']
 ---
 
 Kops is a popular opensource tool that makes it easier to provision and deploy Kubernetes clusters in Cloud Service Providers. 

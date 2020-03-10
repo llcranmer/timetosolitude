@@ -3,7 +3,7 @@ title: How to use Docker Bench Security for Container and Host Hardening
 cover: ./how-to-use-docker-bench-for-security.png
 date: 2020-02-01
 description: Docker bench is an open source tool to help keep improve security of docker
-Tags: ['tool', 'cloud', 'docker', 'cloud']
+tags: ['tool', 'cloud', 'docker', 'cloud']
 ---
 
 
