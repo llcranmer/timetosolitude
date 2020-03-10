@@ -1,9 +1,9 @@
 ---
 title: How I went to college debt free
 cover: ./how-i-graduated-debt-free.png
-date: 2020-02-01
-description: I am one of the few who went to college for free without any financial  help from parents or relatives.
-Tags: ['finance']
+date: 2020-03-05
+description: I am one of the few who went to college for free without any financial help from parents or relatives.
+tags: ['finance']
 ---
 
 
