@@ -53,28 +53,28 @@ For this tutorial we are going to address the ones above that he mentioned so th
 #### Environment setup 
 
 Export the bucket name so the **kops tool** can use it. 
-<pre class=”prettyprint”>
+```
 $ export KOPS_STATE_STORE=s3://prefix-kubebench-demo-state-store
-</pre>
+```
 
 
 
 Set the Name variable.
-<pre class="prettyprint">
+```
 export NAME=k8s-cluster.example.com
-</pre>
+```
 
 
 Get the config to see what k8s version has been installed 
-<pre class="prettyprint">
+```
 $  kops get --name $NAME -o yaml > config_test.yaml
-</pre>
+```
 
 
 Check the kubenetes version.
-<pre class="prettyprint">
+```
 $ cat config_test.yaml
-</pre>
+```
 
 
 
@@ -87,9 +87,9 @@ So, mine was 1.11 therefore I used the 1.11 version of kube-bench.
 #### Master node check
 To check the master node run the following command in your terminal with the appropriate `--version 1.XX` to match your kubernetes version.
 
-<pre class="prettyprint">
+```
 $ kubectl run --rm -i -t kube-bench-master --image=aquasec/kube-bench:latest --restart=Never --overrides="{ \"apiVersion\": \"v1\", \"spec\": { \"hostPID\": true, \"nodeSelector\": { \"kubernetes.io/role\": \"master\" }, \"tolerations\": [ { \"key\": \"node-role.kubernetes.io/master\", \"operator\": \"Exists\", \"effect\": \"NoSchedule\" } ] } }" -- master --version 1.11
-</pre>
+```
 
 
 Output:
@@ -130,9 +130,9 @@ pod "kube-bench-master" deleted
 #### Worker node check
 To check the worker node run the following command in your terminal with the appropriate `--version 1.XX` to match your kubernetes version.
 
-<pre class="prettyprint">
+```
 kubectl run --rm -i -t kube-bench-node --image=aquasec/kube-bench:latest --restart=Never --overrides="{ \"apiVersion\": \"v1\", \"spec\": { \"hostPID\": true } }" -- node --version 1.11
-</pre>
+```
 
 Output
 ```
@@ -208,29 +208,29 @@ Now that the general workflow has been explained let's begin to change the clust
 
 To begin making the improvements first it is necessary to add a key to access the nodes via SSH.
 
-<pre class="prettyprint">
+```
 $./kops create secret sshpublickey admin -i ~/.ssh/id_rsa.pub   --name k8s-cluster.example.com --state s3://kubebench-state-store
-</pre>
+```
 
 
 Now, set the default editor to your preference.
-<pre class="prettyprint">
+```
 $ export EDITOR=vim
-</pre>
+```
 
 
 Thankfully, kops has an auto checker in place whenever you edit the cluster spec file so the best way I found to test that I wast doing it properly was to do,
 
-<pre class="prettyprint">
+```
 $ kops edit cluster ${NAME}
-</pre>
+```
 
 
 Add a line, close and save the file, and if the added line is improper then it will complain. 
 
 So, repeat the process as you add the following lines below, or add them all at once, it is up to you. 
 
-<pre class="prettyprint">
+```
 // Additions to cluster spec file (do not copy this comment)
  kubeAPIServer:
     admissionControl:
@@ -241,37 +241,37 @@ So, repeat the process as you add the following lines below, or add them all at 
     - DenyEscalatingExec
     insecureBindAddress: 0.0.0.0/0
     insecurePort: 1
-</pre>
+```
 
 
 #### Addressing worker node security concerns 2.1.1, 2.1.3, and 2.1.5
 To address the worker node security concerns do the same and use the following section of the godocs for [kops](https://godoc.org/k8s.io/kops/pkg/apis/kops#KubeletConfigSpec) to address the kubelet concerns. So, we look for the field that corresponds to the problem in the godocs and the [kubernetes documentation](https://kubernetes.io/docs/reference/access-authn-authz/authorization/) for the  options. 
 
-<pre class="prettyprint">
+```
 $ kops edit cluster ${NAME}
-</pre>
+```
 
 
-<pre class="prettyprint">
+```
 // Additions to cluster spec file  (do not copy this comment)
  kubelet:
    anonymousAuth: false
    allowPrivileged: false 
    authorizationMode: RBAC
    ReadOnlyPort: 0  
-</pre>
+```
 
 Now, update the cluster for the changes to take effect.
 
-<pre class="prettyprint">
+```
 $ kops update ${NAME} --yes
-</pre>
+```
 
 It will probably say you will need to do a rolling cluster update.
 
-<pre class="prettyprint">
+```
 $ kops rolling-update ${NAME} --yes
-</pre>
+```
 
 
 Run kube-bench again.
