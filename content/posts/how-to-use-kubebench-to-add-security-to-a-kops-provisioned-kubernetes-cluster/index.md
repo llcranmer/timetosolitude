@@ -1,6 +1,6 @@
 ---
 title: How to use Kubebench to Add Security to a Kops Provisioned Kubernetes Cluster 
-date: 2020-02-01
+date: 2020-03-02
 description: Use Kubebench to securely configure a Kuberetes cluster
 tags: ['cloud', 'kubernetes', 'security']
 ---
