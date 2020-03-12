@@ -5,8 +5,6 @@ description: I don't have a traditional background for software engineering but 
 tags: ['engineering']
 ---
 
-# How I Became a Software Engineer
-
 ## High School
 
 
