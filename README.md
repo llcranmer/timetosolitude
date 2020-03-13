@@ -1,10 +1,18 @@
-<a href="https://chronoblog.now.sh" target="_blank">
-<img src="https://github.com/Chronoblog/gatsby-theme-chronoblog/raw/master/assets/st-banner-chronoblog.png" alt="Chronoblog - Gatsby Theme" />
-</a>
+# TimeToSolitude 
 
-<h1 align="center">
+### Blog Template
+
+Is a cloned copy of the Gatsby Starter Chronoblog with minimal changes so please check out the author's work below.
+
+
+### Contribute o
+
+Found a :bug: in an explanation or think it should be explained a little differently then please open a PR on the post and explain the fix or reasoning. 
+
+
+<h2 align="center">
 Gatsby Starter Chronoblog - starter for Chronoblog Gatsby Theme
-</h1>
+</h2>
 
 [![npm](https://img.shields.io/npm/v/gatsby-theme-chronoblog?color=brightgreen)](https://www.npmjs.com/package/gatsby-theme-chronoblog) [![node](https://img.shields.io/node/v/gatsby-theme-chronoblog)](https://www.npmjs.com/package/gatsby-theme-chronoblog)
 
