@@ -5,7 +5,7 @@
 Is a cloned copy of the Gatsby Starter Chronoblog with minimal changes so please check out the author's work below.
 
 
-### Contribute o
+### Contribute
 
 Found a :bug: in an explanation or think it should be explained a little differently then please open a PR on the post and explain the fix or reasoning. 
 
