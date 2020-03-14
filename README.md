@@ -2,7 +2,7 @@
 
 ### Blog Template
 
-Is a cloned copy of the Gatsby Starter Chronoblog with minimal changes so please check out the author's work below.
+Is a clone of the [Gatsby Starter Chronoblog](https://github.com/Chronoblog/gatsby-theme-chronoblog) with minimal changes.
 
 
 ### Contribute
