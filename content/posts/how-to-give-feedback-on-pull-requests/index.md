@@ -8,31 +8,22 @@ tags: ['software', 'engineer', 'tips']
 
 ## Intro
 
-I have reviewed hundreds of pull requests during my first year of software engineering, and most of them have been for code and documentation. I have learned from feedback from other team members (or lack of response) what works and what does not. So here is how I go about providing feedback.
+I have a lot of pull requests during my first year of software engineering, and most of them have been for code and documentation. I have learned from feedback from other team members (or lack of response) what works and what does not. So here is how I go about providing feedback.
 
 
 ## How to give feedback on PR's related to code changes
 
-In general analyzing code, changes are more manageable because one easy way to see if the proposed changes get the +1 is if the system does not break.
+In general analyzing code changes are easier because one easy way to see if the proposed changes should get the +1 or not is if the system does not break. 
 
 ### Tests
 
-If the repository has automated testing run with each commit, then it is easy to see if the tests pass or fail. If they fail, then it suffices to leave a comment saying, "Please fix the failing test." and request changes before giving an in-depth review. 
+If the repository has automated testing run with each commit, then it is easy to see if the tests pass or fail. If they fail, then it suffices to leave a comment saying, "Please fix the failing test." and **request changes** before giving an in-depth review. 
 
 If the tests pass then, I ask myself the questions below while reviewing the code, and if there are no tests, then I'll still ask the questions below and ask for at least a test or two.
 
 ### Questions I use when reviewing code 
 
-#### 1.) Does it consider edge cases?
-An edge case is an uncommon situation that the proposed code changes might encounter. However, it is not always feasible to test or consider every edge case while writing code. 
-
-Still, it is vital to state the *intended behavior of the program/function(s)* and *expected results*, in other words, a design document, so that a reviewer can narrower their scope of things to consider.
-
-##### <span style="color:red">Request Changes</span>
-I request changes pull-requests that **only** consider the *happy path*. The happy path is the scenario where the code only works when it gets the exact input or invoked in a particular order—implying that the code changes are brittle and may cause breaks when giving different information or invocation order. 
-
-
-#### 2.) Does it use known harmful patterns in software engineering?
+##### Does it use known harmful patterns in software engineering?
 Software engineering is a young field with respect to other engineering fields; some do not even consider it engineering, and as such, it does not have any set in stone rules to follow when writing code. 
 
 However, the three things that most engineers might agree upon is the runtime, memory utilization, and redundancy. Runtime and memory utilization affect performance at scale, which, if not optimized, will waste money. In contrast, redundancy affects maintainability of code, which can make it harder for others to understand the system. 
@@ -85,12 +76,12 @@ I think providing feedback on documentation is more complicated than providing f
 3.) Abbreviations before first use. e.g., GHE before writing GitHub Enterprise (GHE) 
 
 ### Target audience
-I try to think about who will be reading the documentation and what their experience is with the code. 
+I try to think about who will be reading the documentation and what their experience is with the code and make suggestions when paragraphs or sentences are confusing.
 
-### Documentation Structure
+### Document Structure
 I like to see that the author uses headers consistently and not sporadically.
 
-### An opinionated way of using headers 
+#### An opinionated way of using headers 
 
 ```markdown 
 # h1: Title of post 
