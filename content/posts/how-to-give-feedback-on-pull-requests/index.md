@@ -2,7 +2,7 @@
 title: How to Give Feedback on Pull Requests
 date: 2020-03-19
 description: A few thoughts about giving feedback on pull requests
-tags: ['software', 'engineer', 'tips']
+tags: ['software engineering']
 ---
 
 

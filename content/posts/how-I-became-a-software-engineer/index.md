@@ -2,7 +2,7 @@
 title: How I became a software engineer
 date: 2020-03-06
 description: I don't have a traditional background for software engineering but became one anyway.
-tags: ['engineering']
+tags: ['software engineering']
 ---
 
 ## High School

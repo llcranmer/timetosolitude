@@ -2,7 +2,7 @@
 title: How to Use Anchore Inline Docker Image Scan
 date: 2020-03-04
 description: Check Docker images for CVE's
-tags: ['cloud', 'Docker', 'security']
+tags: ['security']
 ---
 
 ### Introduction

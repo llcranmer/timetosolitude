@@ -2,7 +2,7 @@
 title: What I learned from working in the industry for one year
 date: 2020-03-11
 description: Some things I've learned to do
-tags: ['software', 'engineer', 'tips']
+tags: ['software engineering']
 ---
 
 ### Introduction

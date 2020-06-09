@@ -2,7 +2,7 @@
 title: Why I think Everyone should learn at least one programming language in the U.S.
 date: 2020-03-11
 description: I think k-12 and beyond education in the U.S. should mandate learning a programming language 
-tags: ['Opinion', 'Education']
+tags: ['software engineering']
 ---
 
 ### Intro
